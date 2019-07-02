@@ -51,9 +51,7 @@ v1.0.0 by 午点科技
 
 [百度地图开放平台](http://lbsyun.baidu.com/)
 ```html
-<div class="cmap" id="allmap" style="width: 770px; height: 360px;">
-  <!-- 770px 360px -->
-</div>
+<div class="cmap" id="allmap" style="width: 770px; height: 360px;"></div>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4E5A3Fb789138a0ab8431f42a887aea1"></script>
 <script type="text/javascript">
   var map = new BMap.Map("allmap");
@@ -90,7 +88,7 @@ v1.0.0 by 午点科技
 
 大名鼎鼎的swiper，是开发网站利器，各式各样的轮播图、tab切换等效果，没有它做不到的，只是你没研究到位
 
-中文文档：[https://www.swiper.com.cn/](https://www.swiper.com.cn/)
+中文文档：[https://www.swiper.com.cn](https://www.swiper.com.cn/)
 
 不需兼容IE10以下的浏览器？请使用[Swiper4.x](https://www.swiper.com.cn/)
 
