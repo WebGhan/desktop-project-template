@@ -42,12 +42,6 @@ input:focus, textarea:focus {
 }
 
 /* public */
-.main {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-}
-
 .floatleft {
   float: left;
 }
