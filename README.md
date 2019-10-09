@@ -1,5 +1,5 @@
-# 初始化静态页面模板（PC版）
-v1.0.0 by 午点科技
+# 初始页面模板（PC端）
+v1.0.1 by 午点科技
 <br>
 
 ### 一、注意事项
@@ -22,9 +22,17 @@ v1.0.0 by 午点科技
 
 ### 三、常用
 
+**网页语言定义 `<html lang="zh">`**
+
+HTML 的 lang 属性可用于网页或部分网页的语言。这对搜索引擎和浏览器是有帮助的。根据 W3C 推荐标准，您应该通过 `<html>` 标签中的 lang 属性对每张页面中的主要语言进行声明。
+
+> 参考：[http://www.w3school.com.cn/tags/html_ref_language_codes.asp](http://www.w3school.com.cn/tags/html_ref_language_codes.asp)
+
+<br>
+
 **版权信息的写法**
 
->参考：[https://10.1pxeye.com/footer-copyright/](https://10.1pxeye.com/footer-copyright/)
+> 参考：[https://10.1pxeye.com/footer-copyright/](https://10.1pxeye.com/footer-copyright/)
 
 示例：
 ```html
@@ -71,9 +79,8 @@ v1.0.0 by 午点科技
 ```
 <br>
 
-**3. 富文本内容样式不尽人意？**
+**3. 覆盖富文本内容样式**
 
-限制即可：
 ```scss
 .rich-text {
   img { max-width: 100%!important; height: auto!important; }
@@ -86,8 +93,6 @@ v1.0.0 by 午点科技
 
 **1. Swiper**
 
-大名鼎鼎的swiper，是开发网站利器，各式各样的轮播图、tab切换等效果，没有它做不到的，只是你没研究到位
-
 中文文档：[https://www.swiper.com.cn](https://www.swiper.com.cn/)
 
 不需兼容IE10以下的浏览器？请使用[Swiper4.x](https://www.swiper.com.cn/)
@@ -99,8 +104,6 @@ v1.0.0 by 午点科技
 **2. SuperSlide**
 
 类似Swiper，关键是兼容IE6
-
-有一大把唾fu手zhi可zhan得tie的常用功能，可以方便地实现一些Swiper2.x不方便实现的效果
 
 官方网站：[http://www.superslide2.com/index.html](http://www.superslide2.com/index.html)
 
