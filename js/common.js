@@ -15,7 +15,3 @@ function backTop (btn) {
 		return false;
 	});
 }
-
-$(function(){
-	backTop ('#backtop');
-})
