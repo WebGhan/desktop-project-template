@@ -44,15 +44,11 @@ input:focus, textarea:focus {
   outline: none;
 }
 
+input:-webkit-autofill {
+  transition: background 1s 99999s;
+}
+
 /* public */
-.floatleft {
-  float: left;
-}
-
-.floatright {
-  float: right;
-}
-
 .clearfloat:after {
   display: block;
   content: "";
