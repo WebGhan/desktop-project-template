@@ -123,12 +123,13 @@ input:-webkit-autofill {
 }
 
 .rich-text img {
-  max-width: 100%;
-  height: auto;
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important;
 }
 
 .rich-text pre {
-  white-space: pre-wrap;
+  white-space: pre-wrap !important;
 }
 
 .backtop {
