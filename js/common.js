@@ -1,3 +1,5 @@
+'use strict'
+
 // 返回顶部
 function backTop (btn) {
 	var _btn = $(btn);
