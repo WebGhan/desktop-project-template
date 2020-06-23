@@ -46,7 +46,7 @@ input:focus, textarea:focus {
 }
 
 input:-webkit-autofill {
-  transition: background 1s 99999s;
+  transition: background 0s 99999s;
 }
 
 /* public */
